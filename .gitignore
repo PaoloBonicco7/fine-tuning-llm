@@ -1,1 +1,64 @@
 .env
+.env2
+.venv
+
+.DS_Store
+
+# Simple Transfomer
+cache_dir
+outputs
+runs
+
+# .gitignore
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Machine learning artifacts
+*.pkl
+*.joblib
+
+# Dataset files (you may want to adjust this depending on your project)
+*.csv
+*.tsv
+*.jsonl
+
+# Logs
+logs/
+
+# Model outputs
+model/
+
+# Directories for virtual environments
+.venv
+env/
+venv/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# VS Code settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
